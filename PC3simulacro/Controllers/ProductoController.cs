@@ -14,10 +14,6 @@ namespace PC3simulacro.Controllers
         {
             private readonly WebAppContext _context;
 
-            private int year;
-
-            private int month;
-
             public HomeController ( WebAppContext context)
             {
                 _context= context;
